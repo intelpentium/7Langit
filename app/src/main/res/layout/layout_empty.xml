@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    android:gravity="center">
+
+    <TextView
+        style="@style/Text_H2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Data tidak tersedia" />
+
+    <TextView
+        style="@style/Text_Body3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center"
+        android:text="Data tidak ada / jaringan tidak tersedia" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        style="@style/Text_Sub2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_26sdp"
+        android:background="@drawable/bg_btn_primary"
+        android:padding="@dimen/_5sdp"
+        android:text="Refresh"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</LinearLayout>
